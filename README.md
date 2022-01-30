@@ -34,7 +34,7 @@ The following solution was implemented:
 
 In order to successfully execute this project in terms of hardware, ensure that your hardware is set up according to the diagram in the "HWSetup.png" document. Furthermore, for the UART device, ensure that the connections to pin RxD and GND are NOT on the same node (top row and bottom row).
 
-In terms of running the program, build the project, download it to the PIC, and ensure that the program is currently "playing". In settings, ensure you power the PIC with atleast 3.25 V. To actually power they system, you can use either a power sypply or your laptop. When programming the PIC, for newer laptops, you can also use the "low-voltage programming mode" option.
+In terms of running the program, build the project, download it to the PIC, and ensure that the program is currently "playing." In settings, ensure you power the PIC with at least 3.25 V. To actually power the system, you can use either a power supply or your laptop. When programming the PIC, for newer laptops, you can also use the "low-voltage programming mode" option.
 
 ## Possible Improvements
 
