@@ -25,8 +25,8 @@ The technologies used include:
 
 The following solution was implemented:
 
-1.	When PB1 was pressed, the user set the minutes to be counted down from. The incremented time was displayed on the terminal using the UART device and the increment was paced using delays to ensure the user could stop at the desired number.
-2.	When PB2 was pressed, the user set the seconds to be counted down from. The incremented time was also displayed on the terminal using the UART device and the increment was paced using delays to ensure the user could stop at the desired number.
+1.	When PB1 was pressed, the user set the minutes to be counted down from. The incremented time was displayed on the terminal using UART and the increment was paced using delays to ensure the user could stop at the desired number.
+2.	When PB2 was pressed, the user set the seconds to be counted down from. The incremented time was also displayed on the terminal using UART and the increment was paced using delays to ensure the user could stop at the desired number.
 3.	When PB3 was pressed for less than 3 seconds, the timer started or paused, depending on the previous state. For a press of longer than 3 seconds, the timer was stopped if active and reset.
 4.	If active, the countdown was displayed on the terminal, and once 00m : 00s was reached, an ALARM message was displayed.
 
